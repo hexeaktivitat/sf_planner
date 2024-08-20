@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Uranium Waste",
+    "description": "Uranium Waste",
+    "sink_points": 0
+  },
+  {
+    "name": "Plutonium Waste",
+    "description": "Plutonium Waste",
+    "sink_points": 0
+  },
+  {
+    "name": "Battery",
+    "description": "Battery",
+    "sink_points": 465
+  },
+  {
+    "name": "Aluminum Ingot",
+    "description": "Aluminum Ingot",
+    "sink_points": 131
+  },
+  {
+    "name": "Color Cartridge",
+    "description": "Color Cartridge",
+    "sink_points": 10
+  },
+  {
+    "name": "Cable",
+    "description": "Cable",
+    "sink_points": 24
+  },
+  {
+    "name": "Concrete",
+    "description": "Concrete",
+    "sink_points": 12
+  },
+  {
+    "name": "Modular Frame",
+    "description": "Modular Frame",
+    "sink_points": 408
+  },
+  {
+    "name": "Steel Beam",
+    "description": "Steel Beam",
+    "sink_points": 64
+  },
+  {
+    "name": "Non-fissile Uranium",
+    "description": "Non-fissile Uranium",
+    "sink_points": 0
+  },
+  {
+    "name": "Plutonium Pellet",
+    "description": "Plutonium Pellet",
+    "sink_points": 0
+  },
+  {
+    "name": "Encased Plutonium Cell",
+    "description": "Encased Plutonium Cell",
+    "sink_points": 0
+  },
+  {
+    "name": "Silica",
+    "description": "Silica",
+    "sink_points": 20
+  },
+  {
+    "name": "Iron Plate",
+    "description": "Iron Plate",
+    "sink_points": 6
+  },
+  {
+    "name": "Power Shard",
+    "description": "Power Shard",
+    "sink_points": 0
+  },
+  {
+    "name": "Iron Rod",
+    "description": "Iron Rod",
+    "sink_points": 4
+  },
+  {
+    "name": "Wire",
+    "description": "Wire",
+    "sink_points": 6
+  },
+  {
+    "name": "HUB Parts",
+    "description": "HUB Parts",
+    "sink_points": 0
+  },
+  {
+    "name": "Iron Ingot",
+    "description": "Iron Ingot",
+    "sink_points": 2
+  },
+  {
+    "name": "Reinforced Iron Plate",
+    "description": "Reinforced Iron Plate",
+    "sink_points": 120
+  },
+  {
+    "name": "Rotor",
+    "description": "Rotor",
+    "sink_points": 140
+  },
+  {
+    "name": "Copper Sheet",
+    "description": "Copper Sheet",
+    "sink_points": 24
+  },
+  {
+    "name": "Screw",
+    "description": "Screw",
+    "sink_points": 2
+  },
+  {
+    "name": "Compacted Coal",
+    "description": "Compacted Coal",
+    "sink_points": 28
+  },
+  {
+    "name": "Heavy Oil Residue",
+    "description": "Heavy Oil Residue",
+    "sink_points": 30
+  },
+  {
+    "name": "Turbofuel",
+    "description": "Turbofuel",
+    "sink_points": 225
+  },
+  {
+    "name": "Empty Canister",
+    "description": "Empty Canister",
+    "sink_points": 60
+  },
+  {
+    "name": "Packaged Turbofuel",
+    "description": "Packaged Turbofuel",
+    "sink_points": 570
+  },
+  {
+    "name": "Circuit Board",
+    "description": "Circuit Board",
+    "sink_points": 696
+  },
+  {
+    "name": "Plastic",
+    "description": "Plastic",
+    "sink_points": 75
+  },
+  {
+    "name": "Motor",
+    "description": "Motor",
+    "sink_points": 1520
+  },
+  {
+    "name": "Encased Industrial Beam",
+    "description": "Encased Industrial Beam",
+    "sink_points": 632
+  },
+  {
+    "name": "Steel Pipe",
+    "description": "Steel Pipe",
+    "sink_points": 24
+  },
+  {
+    "name": "Rubber",
+    "description": "Rubber",
+    "sink_points": 60
+  },
+  {
+    "name": "Fuel",
+    "description": "Fuel",
+    "sink_points": 75
+  },
+  {
+    "name": "Polymer Resin",
+    "description": "Polymer Resin",
+    "sink_points": 12
+  },
+  {
+    "name": "Petroleum Coke",
+    "description": "Petroleum Coke",
+    "sink_points": 20
+  },
+  {
+    "name": "Steel Ingot",
+    "description": "Steel Ingot",
+    "sink_points": 8
+  },
+  {
+    "name": "Versatile Framework",
+    "description": "Versatile Framework",
+    "sink_points": 1176
+  },
+  {
+    "name": "Heavy Modular Frame",
+    "description": "Heavy Modular Frame",
+    "sink_points": 11520
+  },
+  {
+    "name": "Packaged Fuel",
+    "description": "Packaged Fuel",
+    "sink_points": 270
+  },
+  {
+    "name": "Packaged Oil",
+    "description": "Packaged Oil",
+    "sink_points": 180
+  },
+  {
+    "name": "Packaged Heavy Oil Residue",
+    "description": "Packaged Heavy Oil Residue",
+    "sink_points": 180
+  },
+  {
+    "name": "Packaged Water",
+    "description": "Packaged Water",
+    "sink_points": 130
+  },
+  {
+    "name": "Copper Ingot",
+    "description": "Copper Ingot",
+    "sink_points": 6
+  },
+  {
+    "name": "Quartz Crystal",
+    "description": "Quartz Crystal",
+    "sink_points": 50
+  },
+  {
+    "name": "Caterium Ingot",
+    "description": "Caterium Ingot",
+    "sink_points": 42
+  },
+  {
+    "name": "Aluminum Scrap",
+    "description": "Aluminum Scrap",
+    "sink_points": 27
+  },
+  {
+    "name": "Sulfuric Acid",
+    "description": "Sulfuric Acid",
+    "sink_points": 16
+  },
+  {
+    "name": "Encased Uranium Cell",
+    "description": "Encased Uranium Cell",
+    "sink_points": 147
+  },
+  {
+    "name": "Heat Sink",
+    "description": "Heat Sink",
+    "sink_points": 2804
+  },
+  {
+    "name": "Cooling System",
+    "description": "Cooling System",
+    "sink_points": 12006
+  },
+  {
+    "name": "Nitric Acid",
+    "description": "Nitric Acid",
+    "sink_points": 94
+  },
+  {
+    "name": "Aluminum Casing",
+    "description": "Aluminum Casing",
+    "sink_points": 393
+  },
+  {
+    "name": "Radio Control Unit",
+    "description": "Radio Control Unit",
+    "sink_points": 19600
+  },
+  {
+    "name": "Alclad Aluminum Sheet",
+    "description": "Alclad Aluminum Sheet",
+    "sink_points": 266
+  },
+  {
+    "name": "Computer",
+    "description": "Computer",
+    "sink_points": 17260
+  },
+  {
+    "name": "Crystal Oscillator",
+    "description": "Crystal Oscillator",
+    "sink_points": 3072
+  },
+  {
+    "name": "Alumina Solution",
+    "description": "Alumina Solution",
+    "sink_points": 20
+  },
+  {
+    "name": "Smart Plating",
+    "description": "Smart Plating",
+    "sink_points": 520
+  },
+  {
+    "name": "High-Speed Connector",
+    "description": "High-Speed Connector",
+    "sink_points": 3776
+  },
+  {
+    "name": "Automated Wiring",
+    "description": "Automated Wiring",
+    "sink_points": 1440
+  },
+  {
+    "name": "Stator",
+    "description": "Stator",
+    "sink_points": 240
+  },
+  {
+    "name": "AI Limiter",
+    "description": "AI Limiter",
+    "sink_points": 920
+  },
+  {
+    "name": "Quickwire",
+    "description": "Quickwire",
+    "sink_points": 17
+  },
+  {
+    "name": "Modular Engine",
+    "description": "Modular Engine",
+    "sink_points": 9960
+  },
+  {
+    "name": "Adaptive Control Unit",
+    "description": "Adaptive Control Unit",
+    "sink_points": 86120
+  },
+  {
+    "name": "Turbo Motor",
+    "description": "Turbo Motor",
+    "sink_points": 242720
+  },
+  {
+    "name": "Pressure Conversion Cube",
+    "description": "Pressure Conversion Cube",
+    "sink_points": 257312
+  },
+  {
+    "name": "Fused Modular Frame",
+    "description": "Fused Modular Frame",
+    "sink_points": 62840
+  },
+  {
+    "name": "Supercomputer",
+    "description": "Supercomputer",
+    "sink_points": 99576
+  },
+  {
+    "name": "Electromagnetic Control Rod",
+    "description": "Electromagnetic Control Rod",
+    "sink_points": 2560
+  },
+  {
+    "name": "Copper Powder",
+    "description": "Copper Powder",
+    "sink_points": 72
+  },
+  {
+    "name": "Empty Fluid Tank",
+    "description": "Empty Fluid Tank",
+    "sink_points": 225
+  },
+  {
+    "name": "Nuclear Pasta",
+    "description": "Nuclear Pasta",
+    "sink_points": 543424
+  },
+  {
+    "name": "Assembly Director System",
+    "description": "Assembly Director System",
+    "sink_points": 543632
+  },
+  {
+    "name": "Magnetic Field Generator",
+    "description": "Magnetic Field Generator",
+    "sink_points": 15650
+  },
+  {
+    "name": "Thermal Propulsion Rocket",
+    "description": "Thermal Propulsion Rocket",
+    "sink_points": 732956
+  },
+  {
+    "name": "Black Powder",
+    "description": "Black Powder",
+    "sink_points": 14
+  },
+  {
+    "name": "Gas Filter",
+    "description": "Gas Filter",
+    "sink_points": 830
+  },
+  {
+    "name": "Iodine Infused Filter",
+    "description": "Iodine Infused Filter",
+    "sink_points": 2718
+  },
+  {
+    "name": "Alien Protein",
+    "description": "Alien Protein",
+    "sink_points": 0
+  },
+  {
+    "name": "Alien DNA Capsule",
+    "description": "Alien DNA Capsule",
+    "sink_points": 0
+  },
+  {
+    "name": "Purple Power Slug",
+    "description": "Purple Power Slug",
+    "sink_points": 0
+  },
+  {
+    "name": "Yellow Power Slug",
+    "description": "Yellow Power Slug",
+    "sink_points": 0
+  },
+  {
+    "name": "Blue Power Slug",
+    "description": "Blue Power Slug",
+    "sink_points": 0
+  },
+  {
+    "name": "Smokeless Powder",
+    "description": "Smokeless Powder",
+    "sink_points": 58
+  },
+  {
+    "name": "FICSMAS Wonder Star",
+    "description": "FICSMAS Wonder Star",
+    "sink_points": 1
+  },
+  {
+    "name": "FICSMAS Ornament Bundle",
+    "description": "FICSMAS Ornament Bundle",
+    "sink_points": 1
+  },
+  {
+    "name": "FICSMAS Decoration",
+    "description": "FICSMAS Decoration",
+    "sink_points": 1
+  },
+  {
+    "name": "Candy Cane",
+    "description": "Candy Cane",
+    "sink_points": 1
+  },
+  {
+    "name": "Actual Snow",
+    "description": "Actual Snow",
+    "sink_points": 1
+  },
+  {
+    "name": "FICSMAS Bow",
+    "description": "FICSMAS Bow",
+    "sink_points": 1
+  },
+  {
+    "name": "Copper FICSMAS Ornament",
+    "description": "Copper FICSMAS Ornament",
+    "sink_points": 1
+  },
+  {
+    "name": "Iron FICSMAS Ornament",
+    "description": "Iron FICSMAS Ornament",
+    "sink_points": 1
+  },
+  {
+    "name": "FICSMAS Tree Branch",
+    "description": "FICSMAS Tree Branch",
+    "sink_points": 1
+  },
+  {
+    "name": "Red FICSMAS Ornament",
+    "description": "Red FICSMAS Ornament",
+    "sink_points": 1
+  },
+  {
+    "name": "Blue FICSMAS Ornament",
+    "description": "Blue FICSMAS Ornament",
+    "sink_points": 1
+  },
+  {
+    "name": "FICSMAS Gift",
+    "description": "FICSMAS Gift",
+    "sink_points": 1
+  }
+]

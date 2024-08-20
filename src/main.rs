@@ -23,7 +23,7 @@ fn main() -> Result<ExitCode, Error> {
     let backend = CrosstermBackend::new(stdout);
     let mut terminal = Terminal::new(backend)?;
 
-    let mut app = SfPlanner::new();
+    let mut app = SfPlanner::new_from_json("data/items.json".into(), "data/recipes.json".into());
     let res = run_app(&mut terminal, &mut app);
 
     // gracefully exit application
@@ -56,6 +56,12 @@ fn run_app<B: Backend>(terminal: &mut Terminal<B>, app: &mut SfPlanner) -> Resul
                 KeyCode::Char('q') | KeyCode::Esc => {
                     // shut down application
                     break;
+                }
+                KeyCode::Down => {
+                    // select next in list
+                }
+                KeyCode::Up => {
+                    // select previous in list
                 }
                 _ => {}
             }

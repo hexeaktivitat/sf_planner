@@ -4,21 +4,69 @@
 // Update - take in input and current Model and produce a new Model
 // View - displays the model to the user
 
+use std::{fs::File, path::PathBuf};
+
 use ratatui::{
     backend::CrosstermBackend,
     layout::{Alignment, Constraint, Direction, Layout},
     style::{Color, Style, Stylize},
     text::{Line, Span, Text},
-    widgets::{block::Title, Block, BorderType, Borders, List, ListItem, Paragraph},
+    widgets::{block::Title, Block, BorderType, Borders, List, ListItem, ListState, Paragraph},
     Frame,
 };
+use serde::Deserialize;
 
-pub struct SfPlanner {}
+#[derive(Deserialize, Debug, Clone, Ord, PartialOrd, Eq, PartialEq)]
+pub(crate) struct Item {
+    name: String,
+    description: String,
+    sink_points: usize,
+}
+
+#[derive(Deserialize, Debug, Clone, Ord, PartialOrd, Eq, PartialEq)]
+pub(crate) struct Ingredient {
+    name: String,
+    amount: usize,
+}
+
+#[derive(Deserialize, Debug, Clone, Ord, PartialOrd, Eq, PartialEq)]
+pub(crate) struct Recipe {
+    name: String,
+    ingredients: Vec<Ingredient>,
+    products: Vec<Ingredient>,
+    building: String,
+    duration: usize,
+}
+
+pub struct SfPlanner {
+    items: Vec<Item>,
+    recipes: Vec<Recipe>,
+    selected_item: ListState,
+    selected_recipe: Option<ListState>,
+}
 
 impl SfPlanner {
-    pub fn new() -> Self {
-        Self {}
+    #[must_use]
+    pub fn new_from_json(items_json: PathBuf, recipes_json: PathBuf) -> Self {
+        let items_file = File::open(items_json).unwrap();
+        let mut items: Vec<Item> = serde_json::from_reader(items_file).unwrap();
+        items.sort();
+
+        let recipes_file = File::open(recipes_json).unwrap();
+        let mut recipes: Vec<Recipe> = serde_json::from_reader(recipes_file).unwrap();
+        recipes.sort();
+        Self {
+            items,
+            recipes,
+            selected_item: ListState::default(),
+            selected_recipe: None,
+        }
     }
+}
+
+pub enum SelectionMode {
+    ItemSelect(String),
+    RecipeSelect(String),
 }
 
 pub fn view(model: &SfPlanner, frame: &mut Frame) {
@@ -79,11 +127,11 @@ pub fn view(model: &SfPlanner, frame: &mut Frame) {
 
     let mut list_items = Vec::<ListItem>::new();
 
-    let items = ["Iron Ingot", "Iron Plate", "Iron Bar", "Screw"];
+    let items = model.items.clone();
 
     for item in items {
         list_items.push(ListItem::new(Line::from(Span::styled(
-            format!("{}", item),
+            item.name,
             Style::default().fg(sf_orange),
         ))));
     }
@@ -91,6 +139,29 @@ pub fn view(model: &SfPlanner, frame: &mut Frame) {
     let list = List::new(list_items).block(items_block);
 
     frame.render_widget(list, content_chunks[0]);
+
+    let mut list_recipes = Vec::<ListItem>::new();
+    let recipes = model.recipes.clone();
+
+    for recipe in recipes {
+        list_recipes.push(ListItem::new(Line::from(Span::styled(
+            recipe.name,
+            Style::default().fg(sf_orange),
+        ))));
+    }
+
+    let recipe_title = Title::from(" Recipe ".bold());
+
+    let recipe_block = Block::default()
+        .title(recipe_title)
+        .borders(Borders::ALL)
+        .border_style(Style::default().fg(sf_orange))
+        .border_type(BorderType::Rounded)
+        .style(Style::default().bg(sf_grey));
+
+    let recipe = List::new(list_recipes).block(recipe_block);
+
+    frame.render_widget(recipe, content_chunks[1]);
 
     // bottom bar
     let footer_block = Block::default().style(Style::default().bg(sf_grey));
